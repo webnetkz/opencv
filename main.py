@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-pathImg = "C:\\py\\openCV\\imgs\\udv.png"
+pathImg = "./monitor-1.png"
 nameImgSave = 'grayUdv.png'
 
 cap = cv2.VideoCapture(pathImg)
